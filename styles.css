@@ -1,0 +1,89 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+  height: 100vh;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer,
+.control-panel {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+.control-panel button {
+  padding: 1rem;
+  margin-right: 1rem;
+  background: #1a1a1a;
+  border: none;
+  color: #6032be;
+  transition: 1s;
+}
+.control-panel button:hover {
+  background-color: #fff;
+}
+.control-panel button:focus {
+  outline: none;
+}
+.social-links {
+  margin: 20px 0 0 0;
+}
+.social-links a {
+  padding: 0 2px;
+}
+.social-links a i {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.social-links a i:hover {
+  background: #fff;
+}
+.bottom center {
+  margin-top: 1rem;
+  padding: 5px;
+  font-size: 1rem;
+}
+.bottom center span {
+  color: #fff;
+}
+.bottom center a {
+  color: #e94560;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: none;
+}
