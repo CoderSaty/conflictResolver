@@ -10,21 +10,20 @@
 }
 
 body {
-  background-color: #393e46;
+  background-color: #d9e4dd;
+  color:black;
   height: 100vh;
 }
 
 h1 {
-  margin: 30px;
+  margin: 8px;
   font-family: "Lobster", cursive;
-  text-shadow: 5px 0 #232931;
+  text-shadow: 5px 0 #cdc9c3;
   font-size: 3.5rem;
-  color: #fff;
 }
 
 p {
   font-size: 1.5rem;
-  color: #fff;
   font-family: "Indie Flower", cursive;
 }
 
@@ -34,27 +33,26 @@ img {
 
 footer,
 .control-panel {
-  margin-top: 5%;
-  color: #eeeeee;
+  margin-top: 3%;
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
 .control-panel button {
   padding: 1rem;
   margin-right: 1rem;
+  border-radius: 10%;
   background: #1a1a1a;
   border: none;
-  color: #6032be;
-  transition: 1s;
-}
+  color:white;
+  }
 .control-panel button:hover {
-  background-color: #fff;
-}
-.control-panel button:focus {
+ 
   outline: none;
+  background-color: #cdc9c3;
+  color: #1a1a1a;
 }
 .social-links {
-  margin: 20px 0 0 0;
+  margin: 6px 0 0 0;
 }
 .social-links a {
   padding: 0 2px;
@@ -62,7 +60,7 @@ footer,
 .social-links a i {
   height: 40px;
   width: 40px;
-  background: #1a1a1a;
+  background: #cdc9c3;
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -78,7 +76,6 @@ footer,
   font-size: 1rem;
 }
 .bottom center span {
-  color: #fff;
 }
 .bottom center a {
   color: #e94560;
