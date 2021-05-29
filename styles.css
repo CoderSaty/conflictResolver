@@ -12,7 +12,7 @@
 body {
   background-color: #d9e4dd;
   color:black;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 h1 {
@@ -50,6 +50,7 @@ footer,
   outline: none;
   background-color: #cdc9c3;
   color: #1a1a1a;
+  transition: 1s;
 }
 .social-links {
   margin: 6px 0 0 0;
@@ -68,14 +69,12 @@ footer,
   transition: 1s;
 }
 .social-links a i:hover {
-  background: #fff;
+  background: #e94560;
 }
 .bottom center {
   margin-top: 1rem;
   padding: 5px;
   font-size: 1rem;
-}
-.bottom center span {
 }
 .bottom center a {
   color: #e94560;

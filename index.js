@@ -3,8 +3,8 @@ resolve.addEventListener("click", game);
 function game() {
   var friend1 = Math.floor(Math.random() * 6 + 1);
   var friend2 = Math.floor(Math.random() * 6 + 1);
-  console.log(friend1);
-  console.log(friend2);
+  // console.log(friend1);
+  // console.log(friend2);
   document.querySelector(".img1").src = "images/dice" + friend1 + ".png";
   document.querySelector(".img2").src = "images/dice" + friend2 + ".png";
   if (friend1 > friend2) {
